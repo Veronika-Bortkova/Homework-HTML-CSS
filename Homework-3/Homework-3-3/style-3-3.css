@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    gap: 30px;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+
+
+}
+
+#section-top{
+    background: #f18b8b;
+}
+#section-average{
+    background: #80c6f4;
+}
+#section-bottom{
+    background: #5aec89;
+}
+section p{
+    margin: 0 5%;
+}
+
+section a{
+    color: black;
+    font-size: 40px;
+}
