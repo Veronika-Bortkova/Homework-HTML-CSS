@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    all: unset;
+}
+body{
+    height: 100vh;
+}
+
+.cards, .card, .title, text, .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    height: 100%;
+    gap: 132px;
+}
+
+.card{
+    width: 321px;
+    height: 491px;
+    border: 4px solid #554C4C;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    background: rgba(217, 217, 217, 0.3);
+    padding-top: 175px;
+    padding-bottom: 193px;
+}
+
+.cards>div:nth-child(2){
+    border: 4px solid #65856E
+
+}
+.cards>div:nth-child(2)>.card-header{
+    border: 4px solid #65856E;
+}
+.title{
+    width: 119px;
+    height: 48px;
+    font-family: "Inter"; "sans-serif";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.text{
+    width: 211px;
+    height: 72px;
+    font-family: "Inter"; "sans-serif";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.card-header{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    border: 4px solid #554C4C;
+    border-radius: 50%;
+    background-color: white;
+}
+
