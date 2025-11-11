@@ -1,0 +1,25 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .wrapper_w{
+        width: 720px;
+        gap: 64px;
+    }
+
+    img {
+        width: 218px;
+        height: 164px;
+    }
+
+    .cards_line_first {
+        padding-top: 32px;
+    }
+
+    .cards_line_second {
+        padding-bottom: 32px;
+    }
+
+    .card {
+        width: 218px;
+        height: 263px;
+        justify-content: start;
+    }
+}

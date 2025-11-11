@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+    .wrapper_w{
+        width: 343px;
+        gap: 0;
+
+    }
+    .cards_line_first, .cards_line_second {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .wrapper_w div.cards_line_first{
+        padding-top: 32px;
+    }
+    .cards_line_second{
+        padding-bottom: 0;
+    }
+    .card{
+        width: 343px;
+        height: 333px;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+
+    .cards_line_second div:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 32px;
+}
+
+}
